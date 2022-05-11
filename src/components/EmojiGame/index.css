@@ -1,0 +1,63 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+
+.emoji-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.game-instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.game-line {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+.how-to-play {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #fbc7d4;
+  font-style: italic;
+  text-align: center;
+}
+
+.span-1 {
+  font-style: normal;
+  color: #fbc7d4;
+}
+.span {
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.emoji-cards-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
